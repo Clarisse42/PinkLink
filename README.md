@@ -27,5 +27,9 @@ to run unit test
 An .env file is present at the root of the project in order to modify the environment variables.
 
 
+## DATABASE
+SQL 
+At the root of the project, your can find the installation script 
+
 
 Enjoy !
