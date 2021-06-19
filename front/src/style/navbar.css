@@ -1,0 +1,8 @@
+@import 'colors.css';
+
+#navbar {
+    background-color: var(  --pinkly-light-grey);
+}
+#navbar .brand-header {
+    color: var( --pinkly-bright-pink);
+}

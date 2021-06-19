@@ -1,0 +1,32 @@
+@import 'colors.css';
+
+#urlmanager h2 {
+    text-align: center;
+}
+#urlmanager p {
+    display: inline;
+}
+#urlmanager .url-container {
+    border-radius: 10px;
+}
+#urlmanager .url-container .url {
+    text-decoration: underline;
+    color: var( --pinkly-dark-blue);
+}
+#urlmanager .url-container .short-url {
+    color: var( --pinkly-bright-pink);
+    margin: 0 auto;
+}
+#urlmanager .url-container .btn-delete {
+    float: right;
+    font-size: 10px;
+    background-color: white;
+    color: var( --pinkly-bright-pink);
+    border: none;
+    display: block;
+    height: 100%;
+}
+#urlmanager .url-container,
+#urlmanager .url-container .btn-delete  {
+    background-color: var(--pinkly-light-grey);
+}

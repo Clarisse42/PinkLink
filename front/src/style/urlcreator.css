@@ -1,0 +1,31 @@
+@import 'colors.css';
+
+#urlcreator .input-urlcreator{
+    border: 1px solid var( --pinkly-bright-pink);
+    box-shadow: 0px 6px 36px var(--pinkly-light-pink);
+}
+#urlcreator .label-urlcreator {
+    font-size: 20px!important;
+    font-weight: bold;
+
+}
+#urlcreator .btn-pinklink {
+    width: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em
+
+}
+#urlcreator .text-muted {
+    color: var(--pinkly-danger-red)!important;
+}
+#urlcreator .pinklink-container {
+    height: 6em;
+    text-align: center;
+    background-color: var( --pinkly-light-grey);
+    border-radius: 15px;
+}
+#urlcreator .pinklink-container a {
+    color: var( --pinkly-bright-pink)!important;
+}
